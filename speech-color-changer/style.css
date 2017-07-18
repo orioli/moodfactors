@@ -1,0 +1,125 @@
+body, html {
+  margin: 0;
+  -webkit-transition: all 3s ease-in-out;
+  -moz-transition: all 3s ease-in-out;
+  -o-transition: all 3s ease-in-out;
+  -ms-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+
+}
+
+
+html {
+  height: 100%;
+}
+
+body {
+  height: inherit;
+  overflow: hidden;
+
+}
+
+h1, p {
+  font-family: arial;
+  text-align: center;
+  padding: 20px;
+}
+
+
+div {
+  height: 100px;
+  overflow: auto;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  background-color: rgba(255,255,255,0.2);
+
+}
+
+ul {
+  margin: 0;
+}
+
+.hints span {
+  text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+}
+
+
+.elementToFadeInAndOut img {
+    -webkit-animation: fadeinout 5s ease-in-out infinite forwards;
+    animation: fadeinout 5s ease-in-out infinite forwards;
+    opacity: 0.3;
+}
+
+@-webkit-keyframes fadeinout {
+  50% { opacity: .7; }
+}
+
+@keyframes fadeinout {
+  50% { opacity: .7; }
+}
+
+
+.x2 {
+        -webkit-animation:colorchange 10s infinite alternate;
+      
+      
+    }
+
+  @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
